@@ -29,4 +29,8 @@ public class Book {
 	public void setBorrowed() {
 		borrowed=true;
 	}
+	
+	public void setReturn() {
+		borrowed=false;
+	}
 }

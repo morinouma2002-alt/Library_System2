@@ -63,6 +63,7 @@ public class SystemMain {
 				switch (index) {
 
 				case 1 -> member.borrow();
+				case 2 -> member.returnBook();
 
 				case 4 -> {
 					System.out.println("利用ありがとうございました");
